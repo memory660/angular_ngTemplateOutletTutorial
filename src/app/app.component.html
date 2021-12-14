@@ -2,7 +2,7 @@
   <h1>List component</h1>
   <app-list [data]="productList" [itemTemplate]="customItemTemplate"></app-list>
 
-  <ng-template #customItemTemplate let-item let-message1="b">
+  <ng-template #customItemTemplate let-item let-message1="message">
     <div
       style="display: flex; justify-content: space-between; padding: 0.5rem 0"
     >
